@@ -10,11 +10,11 @@ st.set_page_config(
 )
 
 # Load saved analysis files
-df = pd.read_csv("/content/nassau_data.csv")
-recommendations = pd.read_csv("/content/factory_recommendations.csv")
-models = pd.read_csv("/content/model_results.csv")
-risk = pd.read_csv("/content/risk_analysis.csv")
-scenarios = pd.read_csv("/content/scenario_analysis.csv")
+df = pd.read_csv("nassau_data.csv")
+recommendations = pd.read_csv("factory_recommendations.csv")
+models = pd.read_csv("model_results.csv")
+risk = pd.read_csv("risk_analysis.csv")
+scenarios = pd.read_csv("scenario_analysis.csv")
 
 # Dashboard title
 st.title("🏭 Nassau Candy Factory Optimization")
